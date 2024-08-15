@@ -114,6 +114,21 @@ form {
 }
 
 /* End Login Form */
+.passwordInput {
+  position: relative;
+}
+
+.passwordInput input {
+  width: 100%;
+}
+
+.showPassword {
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
 
 .input-group {
   display: flex;
