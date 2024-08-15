@@ -107,6 +107,7 @@ a.active {
   display: grid;
   grid-template-columns: auto;
   gap: 10px;
+  cursor: pointer;
 }
 
 .card:hover {
