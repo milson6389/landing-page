@@ -5,3 +5,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #fffcf2;
+}
+
+header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 3%;
+}
+
+header .nav-logo {
+  height: 50px;
+}
