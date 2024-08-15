@@ -17,7 +17,9 @@ main {
   padding: 10px 3%;
 }
 
-.login-form-container {
+/* Login Form */
+
+.form-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,12 +75,12 @@ form {
   text-align: center;
 }
 
-.btn-login {
+.btn-primary {
   color: #fff;
   background-color: var(--primary);
 }
 
-.btn-register {
+.btn-primary-lighter {
   color: var(--primary);
   background-color: var(--primary-lighter);
 }
@@ -109,4 +111,29 @@ form {
   width: 25px;
   max-width: 35px;
   min-width: 20px;
+}
+
+/* End Login Form */
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.input-group img {
+  height: 35px;
+  background-color: var(--light-grey);
+  border: 1px solid var(--light-grey);
+}
+
+.input-group select {
+  width: 30%;
+  height: 33px;
+  border: 1px solid var(--light-grey);
+}
+
+.input-group .phoneNumber {
+  width: 70%;
+  margin-left: 10px;
 }
