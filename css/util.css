@@ -9,8 +9,10 @@
 :root {
   --primary: #3cce4c;
   --primary-lighter: #e8fce0;
+  --tertiary: #f64920;
   --bg-light: #fffcf2;
   --light-grey: #f6f6f7;
+  --warning: #febd3b;
 }
 
 body {
@@ -22,6 +24,11 @@ body {
 
 a {
   text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
 }
 
 h1,
@@ -75,4 +82,30 @@ h6 {
 
 .danger {
   color: red;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.warning {
+  color: yellow;
+}
+
+.btn {
+  padding: 12px 18px;
+  border: 1px solid var(--light-grey);
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.btn-primary-lighter {
+  color: var(--primary);
+  background-color: var(--primary-lighter);
 }
